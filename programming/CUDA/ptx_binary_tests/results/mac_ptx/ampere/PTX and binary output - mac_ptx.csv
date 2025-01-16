@@ -1,0 +1,35 @@
+sxt_mac - clang,sxt_mac - nvcc,sxt_mac_ptx_1 - clang,sxt_mac_ptx_1 - nvcc,sxt_mac_ptx_2 - clang,sxt_mac_ptx_2 - nvcc,sxt_mac_ptx_3 - clang,sxt_mac_ptx_3 - nvcc
+,,,,,,,
+.reg .b64<21>,.reg .b64<21>,.reg .b64<17>,.reg .b64<17>,.reg .b64<17>,.reg .b64<17>,.reg .b64<17>,.reg .b64<17>
+,,,,,,,
+,,,,,,,
+ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64
+ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64
+cvta.to.global.u64,ld.param.u64,cvta.to.global.u64,ld.param.u64,cvta.to.global.u64,ld.param.u64,cvta.to.global.u64,ld.param.u64
+ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64
+ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64,ld.param.u64
+cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64
+ld.param.u64,cvta.to.global.u64,ld.param.u64,cvta.to.global.u64,ld.param.u64,cvta.to.global.u64,ld.param.u64,cvta.to.global.u64
+cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64
+cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64
+cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64,cvta.to.global.u64
+ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64
+ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64
+ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64,ld.global.nc.u64
+,,ld.global.u64,ld.global.u64,ld.global.u64,ld.global.u64,ld.global.u64,ld.global.u64
+,,// begin inline asm,// begin inline asm,// begin inline asm,// begin inline asm,// begin inline asm,// begin inline asm
+,,{,{,,,{,{
+,,".reg .u64 lo, hi;",".reg .u64 lo, hi;",,,".reg .u64 lo, hi;",".reg .u64 lo, hi;"
+mul.lo.s64,mul.lo.s64,"mul.lo.u64 lo, %rd3, %rd4;","mul.lo.u64 lo, %rd3, %rd4;","mul.lo.u64 %rd1, %rd3, %rd4;","mul.lo.u64 %rd1, %rd3, %rd4;","mul.lo.u64 lo, %rd3, %rd4;","mul.lo.u64 lo, %rd3, %rd4;"
+mul.hi.u64,mul.hi.u64,"mul.hi.u64 hi, %rd3, %rd4;","mul.hi.u64 hi, %rd3, %rd4;","mul.hi.u64 %rd2, %rd3, %rd4;","mul.hi.u64 %rd2, %rd3, %rd4;","mul.hi.u64 hi, %rd3, %rd4;","mul.hi.u64 hi, %rd3, %rd4;"
+add.cc.s64,add.cc.s64,"add.cc.u64 lo, lo, %rd5;","add.cc.u64 lo, lo, %rd5;","add.cc.u64 %rd1, %rd1, %rd5;","add.cc.u64 %rd1, %rd1, %rd5;","add.cc.u64 lo, lo, %rd5;","add.cc.u64 lo, lo, %rd5;"
+addc.cc.s64,addc.cc.s64,"addc.u64 hi, hi, 0;","addc.u64 hi, hi, 0;","addc.u64 %rd2, %rd2, 0;","addc.u64 %rd2, %rd2, 0;","addc.u64 hi, hi, 0;","addc.u64 hi, hi, 0;"
+ld.global.u64,ld.global.u64,"add.cc.u64 lo, lo, %rd6;","add.cc.u64 lo, lo, %rd6;","add.cc.u64 %rd1, %rd1, %rd6;","add.cc.u64 %rd1, %rd1, %rd6;","add.cc.u64 lo, lo, %rd6;","add.cc.u64 lo, lo, %rd6;"
+add.cc.s64,add.cc.s64,"addc.u64 hi, hi, 0;","addc.u64 hi, hi, 0;","addc.u64 %rd2, %rd2, 0;","addc.u64 %rd2, %rd2, 0;","addc.u64 hi, hi, 0;","addc.u64 hi, hi, 0;"
+addc.cc.s64,addc.cc.s64,"mov.u64 %rd1, lo;","mov.u64 %rd1, lo;",,,"mov.u64 %rd1, lo;","mov.u64 %rd1, lo;"
+,,"mov.u64 %rd2, hi;","mov.u64 %rd2, hi;",// end inline asm,// end inline asm,"mov.u64 %rd2, hi;","mov.u64 %rd2, hi;"
+,,},},,,},}
+,,// end inline asm,// end inline asm,,,// end inline asm,// end inline asm
+st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64
+st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64,st.global.u64
+ret;,ret;,ret;,ret;,ret;,ret;,ret;,ret;

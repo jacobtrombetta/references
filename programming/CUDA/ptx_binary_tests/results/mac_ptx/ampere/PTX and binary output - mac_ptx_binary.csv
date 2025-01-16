@@ -1,0 +1,81 @@
+"sm_70, Ampere architecture, GeForce RTX 3080",,,,,,,
+sxt_mac - clang,sxt_mac - nvcc,sxt_mac_ptx_1 - clang,sxt_mac_ptx_1 - nvcc,sxt_mac_ptx_2 - clang,sxt_mac_ptx_2 - nvcc,sxt_mac_ptx_3 - clang,sxt_mac_ptx_3 - nvcc
+"IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;","IMAD.MOV.U32 R1, RZ, RZ, c[0x0][0x28] ;"
+,,,,,,,
+"@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;","@!PT SHFL.IDX PT, RZ, RZ, RZ, RZ ;"
+,,,,,,,
+"IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178]","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;","IMAD.MOV.U32 R6, RZ, RZ, c[0x0][0x178] ;"
+,,,,,,,
+"MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;","MOV R7, c[0x0][0x17c] ;"
+,,,,,,,
+"IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180]","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;","IMAD.MOV.U32 R8, RZ, RZ, c[0x0][0x180] ;"
+,,,,,,,
+"MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;","MOV R9, c[0x0][0x184] ;"
+,,,,,,,
+"IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170]","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x170] ;"
+,,,,,,,
+"MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;","MOV R5, c[0x0][0x174] ;"
+,,,,,,,
+"LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;","LDG.E.64.CONSTANT.SYS R6, [R6] ;"
+,,,,,,,
+"LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;","LDG.E.64.CONSTANT.SYS R8, [R8] ;"
+,,,,,,,
+"IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168]","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;","IMAD.MOV.U32 R2, RZ, RZ, c[0x0][0x168] ;"
+,,,,,,,
+"MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;","MOV R3, c[0x0][0x16c] ;"
+,,,,,,,
+"LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;","LDG.E.64.CONSTANT.SYS R4, [R4] ;"
+,,,,,,,
+"LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;","LDG.E.64.SYS R10, [R2] ;"
+,,,,,,,
+"IMAD.WIDE.U32 R14, R9, R6, RZ ;","IMAD.WIDE.U32 R14, R9, R6, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;","IMAD.WIDE.U32 R14, R7, R8, RZ ;"
+,,,,,,,
+"IMAD.WIDE.U32 R12, R8, R6, RZ ;","IMAD.WIDE.U32 R12, R8, R6, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;","IMAD.WIDE.U32 R12, R6, R8, RZ ;"
+,,,,,,,
+"IMAD.WIDE.U32 R14, P0, R7, R8, R14 ;","IMAD.WIDE.U32 R14, P0, R7, R8, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;","IMAD.WIDE.U32 R14, P0, R6, R9, R14 ;"
+,,,,,,,
+"IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;","IADD3 R19, P1, R4, R12, RZ ;"
+,,,,,,,
+"IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;","IMAD.X R17, RZ, RZ, RZ, P0 ;"
+,,,,,,,
+"IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;","IADD3 R13, P2, R13, R14, RZ ;"
+,,,,,,,
+"IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160]","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;","IMAD.MOV.U32 R4, RZ, RZ, c[0x0][0x160] ;"
+,,,,,,,
+"MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;","MOV R16, R15 ;"
+,,,,,,,
+"IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;","IADD3 R8, P0, R10, R19, RZ ;"
+,,,,,,,
+"IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;","IADD3.X R10, P1, R5, R13, RZ, P1, !PT ;"
+,,,,,,,
+"IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;","IMAD.WIDE.U32.X R6, R7, R9, R16, P2 ;"
+,,,,,,,
+"MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;","MOV R5, c[0x0][0x164] ;"
+,,,,,,,
+"IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;","IADD3.X R9, P0, R11, R10, RZ, P0, !PT ;"
+,,,,,,,
+"IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;","IADD3.X R6, P1, RZ, R6, RZ, P1, !PT ;"
+,,,,,,,
+"IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;","IADD3.X R6, P0, RZ, R6, RZ, P0, !PT ;"
+,,,,,,,
+"STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;","STG.E.64.SYS [R4], R8 ;"
+,,,,,,,
+"IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;","IADD3.X R7, RZ, RZ, R7, P0, P1 ;"
+,,,,,,,
+"STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;","STG.E.64.SYS [R2], R6 ;"
+,,,,,,,
+EXIT ;,EXIT ;,EXIT ;,EXIT ;,EXIT ;,EXIT ;,EXIT ;,EXIT ;
+,,,,,,,
+BRA 0x210;,BRA 0x210;,BRA 0x210;,BRA 0x210;,BRA 0x210;,BRA 0x210;,BRA 0x210;,BRA 0x210;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
+,,,,,,,
+NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;,NOP;
